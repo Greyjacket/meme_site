@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TextField from '@material-ui/core/TextField';
 
 class App extends Component {
+
+  /*if (module.hot) {
+  module.hot.accept();
+}*/
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload!!!!
+            Edit <code>src/App.js</code> and save to reload
           </p>
           <a
             className="App-link"
@@ -18,6 +24,7 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Learn React
+            <TextField/>
           </a>
         </header>
       </div>
